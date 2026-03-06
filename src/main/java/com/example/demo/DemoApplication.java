@@ -44,11 +44,6 @@ public class DemoApplication {
 	
 	@GetMapping("/fiap")
 	String turma(){
-		return "DEVOPS FIAP - VERSAO 1.0";
-	}
-
-	@GetMapping("/postech")
-	String turma(){
-		return "DEVOPS POSTECH - VERSAO 1.0";
+		return "DEVOPS SOAT - VERSAO 1.0";
 	}
 }	
